@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.6.0"
+	client="site"
+	method="upgrade">
+	<name>OT Scroller</name>
+	<author>OmegaTheme.com</author>
+	<creationDate>May 2012</creationDate>
+	<copyright>Copyright (C) 2012 OmegaTheme.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://omegatheme.com</authorUrl>
+	<version>2.5.0</version>
+	<description>OT Images Scroller</description>
+	<files>
+		<filename module="mod_ot_scroller">mod_ot_scroller.php</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+		<filename>index.html</filename> 
+		<filename>helper.php</filename> 
+		<filename>mod_ot_scroller.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				<field name="type" 
+					type="text" 
+					default="png" 
+					label="Image Type" 
+					description="Type of image PNG/GIF/JPG etc. (default is JPG)" />
+					
+				<field name="folder" 
+					type="text" 
+					size="60"
+					default="modules/mod_ot_scroller/images/demo/" 
+					label="Images Folder" 
+					description="IMAGES_FOLDER_DESC" />
+					
+				<field name="modwidth" 
+					type="text" 
+					default="700px" 
+					label="Width of module (px)" 
+					description="WIDTH_OF_MODULE_DESC" />
+					
+				<field name="scrollheight" 
+					type="text" 
+					default="111px" 
+					label="Height of scroller (px)" 
+					description="HEIGHT_OF_SCROLLER_DESC" />
+					
+				<field name="imgperframe" 
+					type="text" 
+					default="6" 
+					label="Number IMG per frame" 
+					description="NUMBER_IMG_PER_FRAME_DESC" />
+					
+				<field name="moduleclass_sfx" 
+					type="text" 
+					default="" 
+					label="Module Class Suffix" 
+					description="MODULECLASS_SUFFIX_DESC" />
+					
+				<field name="cache"
+					 type="list" 
+					 default="0" 
+					 label="Caching" 
+					 description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				
+				<field name="cache_time" 
+					type="text" 
+					default="900" 
+					label="Cache Time" 
+					description="The time before the module is recached" />
+					
+				<field name="Loadjquery" type="list" default="1"
+					label="Load jquery"
+					description="Load jquery">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>	
+			</fieldset>
+		</fields>
+	</config>
+</extension>

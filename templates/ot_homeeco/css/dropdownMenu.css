@@ -1,0 +1,378 @@
+/**
+ # ot_homeeco - 	OT Home ECO  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: dropdownMenu.css 2.5.0 00001, November 2012 12:00:00Z OmegaTheme $
+ * package:	OT Home ECO Template
+ *------------------------------------------------------------------------*/
+ 
+ 
+#ot-mainmenu{
+	
+}
+#ot-mainmenu, 
+#ot-mainmenu ul.level0{
+	line-height: 16px;
+	padding: 0;
+	margin: 0;
+}
+#ot-mainmenu li,
+#ot-mainmenu li li { /* all list items */
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+/* -------- Top level -------- */
+#ot-mainmenu ul.level0 {
+	float: left;
+	margin: 0px 10px;
+	padding: 0px;
+	/*height: 32px;*/
+}
+#ot-mainmenu ul.level0 li .menu_round {
+	float: left;
+	margin: 0px;
+	padding: 0 0 0 0px;
+	/*border: 1px solid #9CBE3B;*/
+	border: 1px solid #ABB8BE;
+}
+
+#ot-mainmenu ul.level0 li {
+	background: none;
+    cursor: pointer;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#ot-mainmenu ul.level0 li .menu_round,
+#ot-mainmenu ul.level0 li .menu_round .menu_round{
+	width: 205px;
+	position: absolute;
+	z-index: 119;
+	height: auto;
+}
+#ot-mainmenu ul.level0 li .menu_round,
+#ot-mainmenu ul.level0 li .menu_round .menu_round,
+#ot-mainmenu ul.level0 li.sfhover .menu_round .menu_round{
+	left: -999em;
+}
+#ot-mainmenu ul.level0 li .menu_round .menu_round,
+#ot-mainmenu ul.level0 li.sfhover .menu_round .menu_round{
+	margin: -37px 0 0 205px; 
+}
+#ot-mainmenu ul.level0 li li {
+	padding: 0;
+	margin: 0px;
+	width: 205px;
+}
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ot-mainmenu ul.level0 li {
+    margin: 0px;
+	padding: 0px ;
+}
+#ot-mainmenu ul.level0 li.level0{
+
+}
+#ot-mainmenu ul.level0 li a {
+	color: #FFFFFF;
+    display: block;
+    font-size: 13px;
+	font-weight: bold;
+    height: 16px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 12px 0px;
+    text-transform: uppercase;
+}
+#ot-mainmenu ul.level0 li.parent a span{
+}
+#ot-mainmenu ul.level0 li.parent.sfhover a span,
+#ot-mainmenu ul.level0 li.active.parent a span{
+}
+#ot-mainmenu ul.level0 li a span{
+	padding: 0px 10px;
+	border-right: 1px dotted #889296;
+	border-left: 1px dotted #FFFFFF;
+}
+#ot-mainmenu ul.level0 li.active,
+#ot-mainmenu ul.level0 li.sfhover{
+	
+}
+#ot-mainmenu ul.level0 li.parent a span{
+	
+}
+#ot-mainmenu ul.level0 li.first,
+#ot-mainmenu ul.level0 li.first a{
+	
+}
+#ot-mainmenu ul.level0 li.first a,
+#ot-mainmenu ul.level0 li.first a span{
+	border-left: 0;
+}
+#ot-mainmenu ul.level0 li.first{
+	padding-left: 0;
+}
+#ot-mainmenu ul.level0 li.last,
+#ot-mainmenu ul.level0 li.last a{
+	
+}
+#ot-mainmenu ul.level0 li.last a,
+#ot-mainmenu ul.level0 li.last a span{
+	border-right: 0;
+}
+#ot-mainmenu ul.level0 li:hover,
+#ot-mainmenu ul.level0 li.active,
+#ot-mainmenu ul.level0 li.sfhover{
+	margin: 0px;
+}
+#ot-mainmenu ul.level0 li a:hover,
+#ot-mainmenu ul.level0 li.active a,
+#ot-mainmenu ul.level0 li.active a:hover,
+#ot-mainmenu ul.level0 li.sfhover a{
+	text-decoration: none;
+	color: #FFFFFF;
+	/*background: #9CBE3B;*/
+}
+/* 2nd level and above */
+#ot-mainmenu ul.level0 ul,
+#ot-mainmenu ul.level0 ul ul{	
+	float: left;
+	margin: 10px 0;
+	padding: 0px;
+	position: relative;
+	top: 0;
+}
+#ot-mainmenu ul.level0 li li{
+	
+}
+#ot-mainmenu ul.level0 li .menu_round,
+#ot-mainmenu ul.level0 li.sfhover .menu_round{
+	background: #FFFFFF;
+	padding: 0px;
+	box-shadow: 1px 1px 1px #191413;
+	-moz-box-shadow: 1px 1px 1px #191413;
+	-webkit-box-shadow: 1px 1px 1px #191413;
+	/* For IE 8 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#666666')";*/
+	/* For IE 5.5 - 7 
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#666666');*/
+}
+#ot-mainmenu li .menu_top,
+#ot-mainmenu li .menu_mid,
+#ot-mainmenu li .menu_bot{
+	width: 100%;
+	float: left;
+}
+#ot-mainmenu li .menu_mid{
+	margin-top: 0!important;
+	
+}
+#ot-mainmenu li .menu_top{
+	height: 0px;
+}
+#ot-mainmenu li li .menu_top{
+	height: 0px;
+}
+#ot-mainmenu li .menu_bot{
+	height: 0px;
+}
+#ot-mainmenu ul.level0 li li{
+	width: 205px;
+	padding: 0;
+	margin: 0;
+	border-left: 0;
+	border-right: 0;
+}
+#ot-mainmenu ul.level0 li.parent li.sfhover,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover,
+#ot-mainmenu ul.level0 li.parent ul.level1 li.current,
+#ot-mainmenu ul.level0 li.parent ul.level1 li.active{
+	
+}
+#ot-mainmenu ul.level0 li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent a span,
+#ot-mainmenu ul.level0 li.parent.sfhover li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.sfhover li.parent a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.sfhover li.parent a span{
+    
+}
+#ot-mainmenu ul.level0 li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li a span,
+#ot-mainmenu ul.level0 li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent.sfhover li a span{
+	background: none;
+}
+#ot-mainmenu ul.level0 li.parent li.first,
+#ot-mainmenu ul.level0 li.parent li.first a,
+#ot-mainmenu ul.level0 li.parent li.first a span{
+	border: 0;
+	margin-top: 0;
+}
+#ot-mainmenu ul.level0 li.parent ul li{
+	border: 0;
+	padding: 0;
+}
+#ot-mainmenu ul.level0 li.parent ul li a,
+#ot-mainmenu ul.level0 li.parent ul li.parent ul li a {
+	border: 0;
+	cursor: pointer;
+	display: block;
+	height: auto;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	color: #403F36;
+	background: #FFFFFF;
+	font-size: 12px;
+	font-weight: normal;
+}
+#ot-mainmenu ul.level0 li.parent ul li a span{
+	border: 0;
+}
+#ot-mainmenu ul.level0 li.parent ul li.first a span{
+	border: 0;
+}
+#ot-mainmenu ul.level0 li.parent ul li a span,
+#ot-mainmenu ul.level0 li.parent.sfhover ul li a span,
+#ot-mainmenu ul.level0 li.active.parent ul li a span{
+	background: none repeat scroll 0 0 transparent;
+	display: block;
+	height: auto;
+	line-height: normal;
+	padding: 6px 1px;
+	margin: 0 15px;
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover li.sfhover a span{
+	
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover li a span,
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li.sfhover li.sfhover li a span{
+	
+}
+#ot-mainmenu ul.level0 li.parent ul li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li.active a{
+	/*color: #ABB8BE;
+	text-decoration: underline;*/
+	color: #FFFFFF;
+	background: #ABB8BE;
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li a,
+#ot-mainmenu ul.level0 li.parent ul li.active li.active li.active li.active li.active li a{
+	color: #403F36;
+	background: none;
+	/*text-decoration: none;*/
+}
+#ot-mainmenu ul.level0 li.parent ul li.sfhover a,
+#ot-mainmenu ul.level0 li.parent ul li a:hover,
+#ot-mainmenu ul.level0 li.parent ul li.parent li a:hover,
+#ot-mainmenu ul.level0 li.parent ul li.parent li.parent li a:hover,
+#ot-mainmenu ul.level0 li.parent ul li.active li a:hover{
+	/*color: #ABB8BE;
+	text-decoration: underline;*/
+	color: #FFFFFF;
+	background: #ABB8BE;
+}
+#ot-mainmenu ul.level0 li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent a{
+	
+}
+#ot-mainmenu ul.level0 li.parent li.parent a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent.active a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent.active a{
+	
+}
+#ot-mainmenu ul.level0 li.parent li.parent li a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent.sfhover li a:hover,
+#ot-mainmenu ul.level0 li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent li a,
+#ot-mainmenu ul.level0 li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent.active li a,
+#ot-mainmenu ul.level0 li.parent li.parent li.parent li.parent li.parent li.parent.active li a{
+	
+}
+
+/*MEGA MENU*/
+div#ot-megaMenu ul li{
+	margin: 0;
+}
+div#ot-megaMenu li.level1 a.level1 span{	
+	line-height: 30px;
+	display: block;
+	border-left: 1px dotted #797872;
+	border-right: 1px dotted #2D2C26;
+	padding: 0px 15px;
+}
+div#ot-megaMenu li.level1.first-item a.level1 span{	
+	border-left: 0;
+}
+div#ot-megaMenu li.level1.last-item a.level1 span{	
+	border-right: 0;
+}
+div#ot-megaMenu li.level1 a.level1{
+	color: #FFFFFF;
+	font-size: 14px;
+	text-transform: capitalize;
+	padding: 15px 0px 11px;
+	border-bottom: 4px solid #9CBE3B;
+	line-height: 30px;
+}
+div#ot-megaMenu li.level1.sfhover a.level1{
+	background: #9CBE3B;
+}
+div#ot-megaMenu ul li .submenu-wrap-ii{
+	border: 1px solid #9CBE3B;
+}
+div#ot-megaMenu .submenu-loadModule{
+	color: #403F36;
+	padding: 10px 0px;
+}
+div#ot-megaMenu ul li li a{
+	color: #403F36;
+	font-weight: normal;
+	padding: 3px 10px;
+}
+div#ot-megaMenu ul li li a:hover{
+	text-decoration: underline;
+}

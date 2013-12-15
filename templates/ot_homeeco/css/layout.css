@@ -1,0 +1,780 @@
+/**
+ # ot_homeeco - 	OT Home ECO  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: layout.css 2.5.0 00001, November 2012 12:00:00Z OmegaTheme $
+ * package:	OT Home ECO Template
+ *------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'Oswald';
+	src: url("fonts/Oswald.ttf");
+}
+
+body#ot-body{
+	background: url("../images/body-bg.png") repeat scroll 0 0 transparent;
+	color: #4C5154;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+div.ot-wrap{
+	float: left;
+	width: 100%;
+	border-top: 4px solid #39372F;
+}
+div.ot-widthTemp{
+	margin: 0 auto;
+	width: 1000px;
+}
+.ot-widthTemp-i{
+	/*padding: 0 10px;*/
+}
+.ot-widthTemp-i{
+	float: left;
+	
+}
+form div {
+	margin: 0;
+}
+div.ot-wrap-i,
+div.ot-widthTemp-i,
+div.ot-header,
+div.ot-logo-menu,
+div.ot-headertop,
+div.ot-megaMenu,
+div.ot-top-extend,
+div.ot-topboxes,
+div.ot-mainbody,
+div.ot-top-content,
+div.ot-bottom-content,
+div.ot-bottomboxes,
+div.ot-bottom-extends,
+div.ot-footer{
+	float: left;
+	width: 100%;
+}
+
+/* +++++++++++++++ STYLE HEADER +++++++++++++++ */
+div.ot-header{
+	position: relative;
+	z-index: 999;
+	background: #FFFFFF;
+	color: #BFBFBF;
+}
+.ot-header-i{
+	padding: 0 20px;
+}
+.ot-logo-menu{
+}
+.ot-logo-menu-i{
+	
+}
+div.ot-logo{
+	float: left;
+	width: 28%;
+}
+div.ot-logo a.logo{
+	width: 260px;
+	height: 110px;
+	/*margin-left: 20px;*/
+	display: block;
+	background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+}
+div.ot-mainmenu{
+	float: right;
+	/*width: 70%;*/
+	margin-top: 6px;
+	position: relative;
+	z-index: 9999;
+	padding: 0px;
+	background: url("../images/mn-bg.png") repeat-x scroll 0 0 transparent;
+}
+div.ot-megaMenu{
+	position: relative;
+	z-index: 9995;
+	padding: 0px;
+	background: url("../images/mg-bg.png") repeat-x scroll 0 0 transparent;
+	height: 56px;
+	border-bottom: 4px solid #FF803F;
+}
+.ot-top-nav {
+	float: right;
+	width: 100%;
+}
+.ot-top-nav .module{
+	float: right;
+	background: #39372F;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-style: italic;
+	padding: 0px;
+}
+.ot-top-nav .module a{
+	color: #FFFFFF;
+}
+div.ot-header,
+div.ot-header a{
+	color: #8b8280;
+}
+.ot-headertop-1 .otModule {
+	float: right;
+	line-height: 24px;
+	padding: 20px 0px 0px 10px;
+}
+.ot-headertop-1 .otModule .otModule-i{
+	float: left;
+}
+div.ot-top-nav .module ul,
+div.ot-headertop-1 .module ul{
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+}
+div.ot-top-nav .module ul li,
+div.ot-headertop-1 .module ul li{
+	background: none;
+	/*display: inline;*/
+	float: left;
+	padding: 0px 5px;
+	margin: 0px;
+	line-height: 24px;
+}
+div.ot-top-nav .module ul li.last,
+div.ot-headertop-1 .module ul li.last{
+	
+}
+div.ot-top-nav .module ul li a,
+div.ot-top-nav .module ul li a:hover{
+	background: none;
+	color: #FFFFFF;
+	padding: 5px 1px;
+}
+div.ot-header .module ul li a{
+	margin: 0;
+	color: #8b8280;
+}
+div.ot-headertop-1{
+	float: right;
+	width: 70%;
+}
+div.ot-headertop-1-i{
+	
+}
+div.ot-headertop-1-i{
+	margin: 0;
+	overflow: hidden;
+}
+.ot-headertop-2{
+	float: left;
+	width:100%;
+}
+.ot-headertop-2 .otModule{
+	
+}
+
+/* +++++++++++++++ END HEADER +++++++++++++++ */
+
+.module h3{
+	/*margin-top: 0px;*/
+	padding: 10px 0;
+	border-top: 3px double #E5E9E8;
+	border-bottom: 3px double #E5E9E8;
+}
+.module h3 span.title-module{
+	text-transform: uppercase;
+	/*color: #333333;*/
+	color: #5c5c5c;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+}
+.module h3 span.first-word{
+	color: #463837;
+	font-size: 30px;
+	display: block;
+}
+.module ul,
+.module ul.menu{
+	padding: 0;
+	margin: 0;
+}
+.module ul.menu li{
+	/*border-bottom: 1px solid #999999;*/
+	margin: 1px 0;
+	padding: 0px;
+	line-height: 24px;
+	background: none;
+}
+.module ul.menu li.first,
+.module ul.menu li.first div{
+	border: 0;
+}
+.module ul.menu li ul li{
+	border: 0;
+	padding-left: 10px;
+}
+.module ul.menu li div{
+	
+}
+.module ul.menu li a{
+	text-transform: none;
+	display: block;
+	/*color: #FFFFFF;*/
+	padding: 5px 10px;
+}
+.module ul.menu li a:hover{
+	text-decoration: none;
+}
+
+.ot-top-extend{
+	padding: 0px;
+	background: #FFFFFF;
+}
+div.ot-top-extend,
+div.ot-top-extend a{
+	/*color: #8B8280;*/
+}
+.ot-top-extend-i{
+	overflow: hidden;
+	padding: 0;
+	margin: 0px 20px;
+}
+.ot-top-extend-i .otModule-i{
+	
+}
+.ot-top-extend .otModule{
+	float: left;
+	margin-top: 10px;
+}
+.ot-top-extend .otModule.floatright{
+	float: right;
+}
+.ot-top-extend .otModule table tr td{
+	padding: 0;
+}
+.breadcrumbs{
+	padding: 10px;
+	display: block;
+	color: #788185;
+	background: #F1F4F5;
+}
+span.breadcrumbs a,
+span.breadcrumbs span{
+	/*padding: 5px 15px 5px 0px;
+	margin-right: 10px;*/
+	padding: 5px 10px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+span.breadcrumbs a{
+	color: #788185;
+}
+span.breadcrumbs .breadcrumb-arrow{
+	/*background: url(../images/breadcrumb-arrow.png) no-repeat right 10px;*/
+	color: #788185;
+}
+
+/* +++++++++++++++ STYLE MAINBODY +++++++++++++++ */
+div.ot-mainbody{
+	background: #FFFFFF;
+}
+div.ot-mainbody-i{
+    overflow: hidden;
+	padding: 0px 20px;
+}
+#system-message-container dl#system-message dd{
+	padding: 0;
+	float: none;
+}
+#system-message-container dl#system-message dd ul{
+	
+}
+#system-message-container dl#system-message dd ul li{
+	background: none;
+}
+.genericItemTitle,
+.catItemHeader .catItemTitle{
+	font-size: 24px;
+}
+.itemHeader .itemTitle,
+.genericItemTitle,
+.catItemHeader .catItemTitle,
+.catItemHeader .catItemTitle a{
+	color: #5C5C5C;
+	text-transform: uppercase;
+}
+.itemHeader .itemTitle{
+	
+}
+.genericView .catItemView,
+.itemList .itemContainer,
+.catItemList .itemContainer,
+.latestItemList .itemContainer{
+	margin-bottom: 0;
+	/*padding: 0px 0px 20px;*/
+	padding: 0;
+}
+.itemContainerLast{
+	
+}
+.itemContainerLast.itemContainerFirst{
+	border: 0;
+}
+.genericView .catItemAdditionalInfo{
+	/*padding: 0;*/
+}
+div.megacontact-wrap {
+	overflow: hidden;
+	background: #FFFFFF;
+	padding: 15px 0px;
+}
+
+/* +++++++++++++++ STYLE LEFT-RIGHT COLUMN +++++++++++++++ */
+div.ot-leftcolumn{
+	float: left;
+	width: 250px;
+	margin: 0 25px 0 0;
+}
+div.ot-rightcolumn{
+	float: right;
+	width: 250px;
+	margin: 0 0 0 25px;
+}
+div.ot-rightcolumn-i,
+div.ot-leftcolumn-i{
+	
+}
+div.ot-rightcolumn .otModule,
+div.ot-leftcolumn .otModule{
+	float: left;
+	width: 100%;
+}
+div.ot-rightcolumn .otModule-i,
+div.ot-leftcolumn .otModule-i{
+	
+	/*border-bottom: 3px double #ededee;*/
+}
+div.ot-rightcolumn .otModule-i .otRounded-mid,
+div.ot-leftcolumn .otModule-i .otRounded-mid{
+	
+}
+div.ot-rightcolumn .otModuleContent-i,
+div.ot-leftcolumn .otModuleContent-i{
+	overflow: hidden;
+	padding: 0px;
+}
+div.ot-rightcolumn ul,
+div.ot-leftcolumn ul{
+	padding: 0;
+	margin: 0;
+}
+div.ot-rightcolumn ul li,
+div.ot-leftcolumn ul li{
+	/*border-bottom: 1px solid #999999;*/
+	margin: 0;
+	padding: 0 0 0 15px;
+	line-height: 24px;
+	background: none;
+}
+div.ot-rightcolumn ul li.first,
+div.ot-leftcolumn ul li.first,
+div.ot-rightcolumn ul li.first div,
+div.ot-leftcolumn ul li.first div{
+	
+}
+div.ot-rightcolumn ul li ul li,
+div.ot-leftcolumn ul li ul li{
+	border: 0;
+	padding-left: 10px;
+}
+div.ot-rightcolumn ul li div,
+div.ot-leftcolumn ul li div{
+	
+}
+div.ot-rightcolumn ul li a,
+div.ot-leftcolumn ul li a{
+	text-transform: none;
+	/*display: block;*/
+	padding: 2px 10px;
+}
+div.ot-rightcolumn ul li a:hover,
+div.ot-leftcolumn ul li a:hover{
+}
+div.ot-rightcolumn .k2ItemsBlock ul li,
+div.ot-leftcolumn .k2ItemsBlock ul li{
+	border-bottom: 1px solid #b0b0b0;
+	/*padding: 0;*/
+	padding-left: 25px;
+	background: url("../images/plus.png") no-repeat scroll 0 7px transparent;
+}
+div.ot-rightcolumn .k2ItemsBlock ul li.iamopen,
+div.ot-leftcolumn .k2ItemsBlock ul li.iamopen{
+	background: url("../images/minus.png") no-repeat scroll 0 7px transparent;
+}
+div.ot-rightcolumn .k2ItemsBlock ul li a,
+div.ot-leftcolumn .k2ItemsBlock ul li a{
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+	line-height: 32px;
+}
+div.ot-rightcolumn .k2ItemsBlock ul li.iamopen a,
+div.ot-leftcolumn .k2ItemsBlock ul li.iamopen a{
+	/*background: url("../images/minus.png") left no-repeat;*/
+	text-decoration: none;
+}
+div.ot-rightcolumn .otmodule,
+div.ot-leftcolumn .otmodule{
+	float: left;
+	margin-bottom: 20px;
+	width: 100%;
+}
+div.ot-rightcolumn .otmodule .otmodule-ext,
+div.ot-leftcolumn .otmodule .otmodule-ext{
+	overflow: hidden;
+}
+
+/* +++++++++++++++ END LEFT-RIGHT +++++++++++++++ */
+.ot-topboxes {
+	padding: 0px;
+	margin: 0 0 10px;
+}
+.ot-topboxes .top-box{
+	float: left;
+}
+.ot-topboxes .lastbox{
+	float: right;
+}
+.ot-topboxes .top-box .otRounded{
+	padding: 0px;
+}
+.ot-topboxes .width100 .otRounded{
+	padding: 0px;
+}
+.ot-topboxes .firstbox .otRounded{
+	padding-left: 0px;
+}
+.ot-topboxes .lastbox .otRounded{
+	padding-right: 0px;
+}
+.ot-topboxes .top-box .otRounded .otRounded-mid{
+	
+}
+.ot-topboxes .top-box h3{
+	
+}
+.ot-topboxes .top-box .otRounded .otRounded-mid .otRounded-mid-i{
+	padding: 0px;
+}
+.ot-content{
+	overflow: hidden;
+	padding: 0px;
+}
+.content-full-right{
+	/*padding-right: 0;*/
+}
+.content-full-left{
+	/*padding-left: 0;*/
+}
+.content-full-leftfull-right{
+	/*padding: 0;*/
+}
+div.ot-content-i{
+	clear: both;
+	/*margin: 10px 0px;*/
+	margin: 0px;
+	overflow: hidden;
+}
+div.ot-top-content,
+div.ot-bottom-content{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0px;
+}
+div.ot-top-content{
+	
+}
+div.ot-bottom-content{
+	
+}
+div.ot-top-content .otModule,
+div.ot-bottom-content .otModule{
+	margin: 0px;
+}
+div.ot-top-content .otModule .otModule-i,
+div.ot-bottom-content .otModule .otModule-i{
+	padding: 10px 0px;
+	overflow: hidden;
+}
+div.ot-top-content .otModule H3,
+div.ot-bottom-content .otModule H3{
+	
+}
+
+/* +++++++++++++++ END MAINBODY +++++++++++++++ */
+
+.ot-bottom{
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.ot-bottom-mid {
+	overflow: hidden;
+	padding: 0 10px;
+}
+/* +++++++++++++++ BOTTOM EXTENDS +++++++++++++++ */
+.ot-bottom-extends{
+	background: #FFFFFF;
+}
+.ot-bottom-extends-i{
+	/*overflow: hidden;*/
+}
+.ot-bottom-extends .bottom-extend{
+	float: left;
+}
+.ot-bottom-extends .firstbox{
+	border: none;
+}
+.ot-bottom-extends .midbox{
+	
+}
+.ot-bottom-extends .lastbox{
+	float: right;
+}
+.ot-bottom-extends .bottom-extend .otRounded{
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+.ot-bottom-extends .firstbox .otRounded{
+	padding-left: 20px;
+	padding-right: 15px;
+}
+.ot-bottom-extends .midbox .otRounded{
+	padding: 15px 15px;
+}
+.ot-bottom-extends .lastbox .otRounded{
+	padding-right: 20px;
+	padding-left: 15px;
+}
+.ot-bottom-extends .bottom-extend h3{
+	
+}
+/* +++++++++++++++ END BOTTOM EXTENDS +++++++++++++++ */
+
+/* +++++++++++++++ STYLE BOTTOMBOXES +++++++++++++++ */
+div.ot-bottomboxes{
+	padding-top: 10px;
+	color: #FFFFFF;
+}
+div.ot-bottomboxes-i{
+	margin: 0;
+    overflow: hidden;
+    padding: 0px;
+}
+.ot-bottomboxes .bottom-box{
+	float: left;
+}
+.ot-bottomboxes .lastbox{
+	float: right;
+}
+.ot-bottomboxes .bottom-box .otRounded{
+	margin: 0px;
+	padding: 0px;
+}
+.ot-bottomboxes .width100 .otRounded{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ot-bottomboxes .firstbox .otRounded{
+	/*padding-left: 0;*/
+	margin-left: 0px;
+}
+.ot-bottomboxes .lastbox .otRounded{
+	/*padding-right: 0;*/
+	margin-right: 0px;
+}
+.ot-bottomboxes .bottom-box .otRounded .otRounded-mid{
+}
+div.ot-bottomboxes .bottom-box h3{
+	
+}
+.bottom-box .module h3 span.title-module{
+	color: #5C5C5C;
+}
+.bottom-box .module h3 span.first-word{
+	color: #333333;
+}
+div.ot-bottomboxes .bottom-box a{
+	
+}
+div.ot-bottomboxes .bottom-box ul.level0 li a{
+	/*display: block;*/
+	background: none;
+}
+div.ot-bottomboxes .bottom-box ul.level0 li a:hover{
+	text-decoration: none;
+}
+div.ot-bottomboxes .bottom-box .otmodules-i{
+	
+}
+div.ot-bottomboxes .bottom-box .first h3,
+div.ot-bottomboxes .bottom-box .first .otmodules-i{
+	
+}
+div.ot-bottomboxes .bottom-box ul{
+	margin: 0;
+	padding: 0;
+}
+div.ot-bottomboxes .bottom-box ul li{
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #FFFFFF;
+}
+div.ot-bottomboxes .bottom-box ul.menu li{
+	padding: 0px 10px 0px 0px;
+	list-style: square inside none;
+}
+div.ot-bottomboxes .bottom-box ul.stream-items li{
+	background: none;
+}
+div.ot-bottomboxes .bottom-box ul.stream-items li .tweet{
+	padding: 0;
+}
+div.ot-bottomboxes .bottom-box ul li a.moduleItemTitle{
+	display: inline;
+	font-size: 14px;
+	font-style: italic;
+}
+div.ot-bottomboxes .bottom-box ul li span.moduleItemDateCreated,
+div.ot-bottomboxes .bottom-box ul li .moduleItemAuthor,
+div.ot-bottomboxes .bottom-box ul li .moduleItemAuthor a{
+	
+}
+/* CUSTOM STYLE */
+.ot-bottomboxes .bottom-box .module-space{
+	background: url(../images/custom-space.png) no-repeat 0 100%;
+	margin-left: 20px;
+	padding-left: 35px;
+}
+.ot-bottomboxes .bottom-box .module-space a.create-an-account{
+	background: url(../images/creat-an-account-bg.png) repeat-x;
+	color: #FFFFFF;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+form.get-deals{
+	
+}
+form.get-deals input.email{
+	padding: 4px 0;
+}
+form.get-deals input.submit{
+	background: url(../images/get-deals-submit.png) repeat-x;
+	border: medium none;
+    font-family: arial;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* +++++++++++++++ END BOTTOMBOXES +++++++++++++++ */
+
+/* +++++++++++++++ STYLE FOOTER +++++++++++++++ */
+div.ot-footer{
+   background: url("../images/footer-bg.png") repeat;
+   border-top: 4px solid #8c9092;
+   font-size: 11px;
+   color: #757677;
+   line-height: 20px;
+   position: relative;
+}
+.ot-footer-i{
+	padding: 0 20px 20px;
+    margin: 0 0px;
+	overflow: hidden;
+}
+div.ot-footer .ot-footer-i div.ot-widthTemp-i{
+   background: none;
+}
+div.ot-bottom-1 .otModule,
+div.ot-bottom-2 .otModule{
+	/*float: left;*/
+}
+div.ot-bottom-1 h3,
+div.ot-bottom-2 h3{
+	color: #999999;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+div.ot-bottom-1 ul.menu,
+div.ot-bottom-2 ul.menu{
+	float: left;
+	margin: 0;
+}
+div.ot-bottom-1 ul.menu li,
+div.ot-bottom-2 ul.menu li{
+	background: none;
+	margin: 0;
+	padding: 0;
+	line-height: 12px;
+}
+div.ot-bottom-1 ul.menu li.first,
+div.ot-bottom-2 ul.menu li.first{
+}
+div.ot-bottom-1 ul.menu li.first{
+}
+div.ot-bottom-1 ul.menu li a,
+div.ot-bottom-2 ul.menu li a{
+	font-weight: normal;
+	text-transform: none;
+	font-style: italic;
+}
+div.ot-bottom-1 ul li a,
+div.ot-bottom-2 ul li a{
+	color: #FFFFFF;
+}
+div.ot-bottom-1 ul li a:hover,
+div.ot-bottom-2 ul li a:hover{
+	color: #6c903a;
+}
+
+div.ot-bottom-1{
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	border-top: 3px double #303438;
+	border-bottom: 3px double #303438;
+	margin-top: 20px;
+}
+div.ot-bottom-2{
+	float: right;
+	width: 100%;
+	padding-top: 20px;
+}
+div.ot-bottom-2 a{
+	
+}
+
+/* +++++++++++++++ END FOOTER +++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+

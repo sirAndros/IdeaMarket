@@ -1,0 +1,1201 @@
+/**
+ # ot_homeeco - 	OT Home ECO  Template for Joomla 2.5!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: customs.css 2.5.0 00001, November 2012 12:00:00Z OmegaTheme $
+ * package:	OT Home ECO Template
+ *------------------------------------------------------------------------*/
+
+ #josForm div.k2AccountPage table th{
+	padding: 20px 0 10px;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+ }
+ a.read-more{
+	text-decoration: none;
+}
+ .otModule a.read-more{
+	float: right;
+	margin-bottom: 5px;
+	border-bottom: 2px solid;
+}
+a.moduleItemReadMore{
+	float: right;
+}
+.catItemTagsBlock span,
+.itemTagsBlock span{
+	background: url(../images/tags.png) no-repeat #999999;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.catItemTagsBlock a,
+.itemTagsBlock a{
+	padding: 5px 20px;
+	color: #FFFFFF;
+	background: #ABBA5A;
+	font-weight: bold;
+}
+
+/* CUSTOM STYLE MEGA MENU */
+div#ot-megaMenu li.level1.bathroom a.level1{
+	border-bottom: 4px solid #9CBE3B;
+}
+div#ot-megaMenu li.level1.bedroom a.level1{
+	border-bottom: 4px solid #CADA93;
+}
+div#ot-megaMenu li.level1.eway a.level1{
+	border-bottom: 4px solid #96A9CD;
+}
+div#ot-megaMenu li.level1.hoffice a.level1{
+	border-bottom: 4px solid #ADC8D5;
+}
+div#ot-megaMenu li.level1.kitchen a.level1{
+	border-bottom: 4px solid #E7C7B5;
+}
+div#ot-megaMenu li.level1.dining a.level1{
+	border-bottom: 4px solid #88775B;
+}
+div#ot-megaMenu li.level1.lroom a.level1{
+	border-bottom: 4px solid #BA846B;
+}
+div#ot-megaMenu li.level1.lseating a.level1{
+	border-bottom: 4px solid #F0D57A;
+}
+div#ot-megaMenu li.level1.ybroom a.level1{
+	border-bottom: 4px solid #E1A57F;
+}
+div#ot-megaMenu li.level1.bathroom.sfhover a.level1{
+	background: #9CBE3B;
+}
+div#ot-megaMenu li.level1.bedroom.sfhover a.level1{
+	background: #CADA93;
+}
+div#ot-megaMenu li.level1.eway.sfhover a.level1{
+	background: #96A9CD;
+}
+div#ot-megaMenu li.level1.hoffice.sfhover a.level1{
+	background: #ADC8D5;
+}
+div#ot-megaMenu li.level1.kitchen.sfhover a.level1{
+	background: #E7C7B5;
+}
+div#ot-megaMenu li.level1.dining.sfhover a.level1{
+	background: #88775B;
+}
+div#ot-megaMenu li.level1.lroom.sfhover a.level1{
+	background: #BA846B;
+}
+div#ot-megaMenu li.level1.lseating.sfhover a.level1{
+	background: #F0D57A;
+}
+div#ot-megaMenu li.level1.ybroom.sfhover a.level1{
+	background: #E1A57F;
+}
+div#ot-megaMenu ul li.bathroom .submenu-wrap-ii{
+	border: 1px solid #9CBE3B;
+}
+div#ot-megaMenu ul li.bedroom .submenu-wrap-ii{
+	border: 1px solid #CADA93;
+}
+div#ot-megaMenu ul li.eway .submenu-wrap-ii{
+	border: 1px solid #96A9CD;
+}
+div#ot-megaMenu ul li.hoffice .submenu-wrap-ii{
+	border: 1px solid #ADC8D5;
+}
+div#ot-megaMenu ul li.kitchen .submenu-wrap-ii{
+	border: 1px solid #E7C7B5;
+}
+div#ot-megaMenu ul li.dining .submenu-wrap-ii{
+	border: 1px solid #88775B;
+}
+div#ot-megaMenu ul li.lroom .submenu-wrap-ii{
+	border: 1px solid #BA846B;
+}
+div#ot-megaMenu ul li.lseating .submenu-wrap-ii{
+	border: 1px solid #F0D57A;
+}
+div#ot-megaMenu ul li.ybroom .submenu-wrap-ii{
+	border: 1px solid #E1A57F;
+}
+/* CUSTOM STYLE GO TOP */
+div.ot-gotop a{
+	display: block;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	right: -40px;
+	width: 40px;
+	height: 40px;
+	background: #6C903A;
+	line-height: 40px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* CUSTOM STYLE BLOG */
+.ot-blog .catItemAdditionalInfo{
+	padding: 0;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0px;
+}
+.ot-blog .itemToolbar ul,
+.ot-blog .catItemAdditionalInfo-i{
+	padding: 15px 20px 15px 25px;
+}
+.ot-blog a.itemCommentsLink{
+	margin-top: -4px;
+}
+.ot-blog .itemHeader{
+	position: relative;
+}
+.ot-blog .itemHeader .right-lk{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	padding-right: 20px;
+	z-index: 1;
+}
+.ot-blog .itemHeader .right-lk a{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0 3px;
+	overflow: hidden;
+	text-indent: -100px;
+}
+.ot-blog .itemHeader .right-lk a.itemPrintLink{
+	background: url(../images/print-ico.png) no-repeat;
+}
+.ot-blog .itemHeader .right-lk a.itemEmailLink{
+	background: url(../images/email-ico.png) no-repeat;
+}
+
+/* CUSTOM STYLE PORFOLIO */
+.porfolio .catItemView{
+	margin: 0px 5px;
+}
+.porfolio .k2ItemBlock{
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+.porfolio span.catItemImage{
+	margin: 0;
+}
+.porfolio a.read-more{
+	position: absolute;
+	z-index: 1;
+	display: block;
+	opacity: 0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+	width: 95px;
+	height: 46px;
+	overflow: hidden;
+	text-indent: -1000px;
+	background: url(../images/link-ico.png) top left no-repeat;
+}
+.porfolio .itemHeader .itemTitle{
+	padding: 15px 0 0;
+	font-size: 29px;
+}
+.porfolio .itemIntroText{
+	overflow: hidden;
+	border-bottom: 1px solid #E9EAEA;
+}
+.porfolio .itemFullText{
+	float: left;
+	width: 100%;
+}
+.porfolio .itemImageBlock{
+	float: left;
+	margin: 15px 20px 15px 0px;
+	padding: 10px;
+	background: #FFFFFF;
+	border: 1px solid #E9EAEA;
+}
+ 
+/* CUSTOM STYLE VIRTUEMART */
+.ot-top-nav .module .ot-total_products{
+	padding: 5px 10px;
+	background: #8AA526;
+	line-height: 24px;
+}
+.ot-top-nav .module .ot-total_products span.total_products,
+.ot-top-nav .module .ot-total_products span.show_cart{
+	padding: 0 7px;
+}
+.ot-vmproduct li{
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+.ot-vmproduct .spacer{
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+	margin: 1px;
+}
+.category-view .row .category .spacer:hover, 
+.featured-view .spacer:hover, 
+.latest-view .spacer:hover, 
+.topten-view .spacer:hover, 
+.related-products-view .spacer:hover, 
+.browse-view .row .product .spacer:hover,
+.ot-vmproduct .spacer:hover{
+	border: 1px solid #ADBAC0;
+	margin: 0px;
+}
+.product .spacer .ot-product-detail,
+.ot-vmproduct .spacer .ot-product-detail{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.slide .ot-vmproduct .spacer .product-image img,
+div.related-products-view .product .spacer img{
+	height: 150px;
+}
+.ot-leftcolumn .module .ot-vmproduct .spacer span.vote,
+.ot-rightcolumn .module .ot-vmproduct .spacer span.vote{
+	float: left;
+	padding: 0 0 10px;
+}
+.ot-vmgroup .ot-slidenav .otprev,
+.ot-vmgroup .ot-slidenav .otnext,
+.ot-vmgroup .ot-slidenav .otpause{
+	float: left;
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin: 0px 1px;
+}
+.ot-vmgroup .ot-slidenav .otprev{
+	background: url("../images/prev.png") 7px 5px no-repeat #d4d4d4;
+}
+.ot-vmgroup .ot-slidenav .otnext{
+	background: url("../images/next.png") 7px 5px no-repeat #d4d4d4;
+}
+.ot-vmgroup .ot-slidenav .otprev:hover{
+	background: url("../images/prev.png") 7px 5px no-repeat #8f8f8f;
+	cursor: pointer;
+}
+.ot-vmgroup .ot-slidenav .otnext:hover{
+	background: url("../images/next.png") 7px 5px no-repeat #8f8f8f;
+	cursor: pointer;
+}
+
+/* CUSTOM STYLE BREADCRUMBS */
+div.ot-top-content .otModule.breadcrumb .otModule-i,
+div.ot-bottom-content .otModule.breadcrumb .otModule-i{
+	padding: 0 20px;
+}
+/* CUSTOM STYLE HEADER-TOP MODULE */
+ 
+ /* CUSTOM STYLE SCROLLABLE */
+ .scroll_wrapper .scroll_wrapper_i .scrollable{
+	margin-left: 12px;
+ }
+ .scroll_wrapper .scroll_wrapper_i a.browse{
+	width: 12px;
+	height: 27px;
+ }
+ .scroll_wrapper .scroll_wrapper_i a.left{
+	left: 0px;
+	background: url("../images/prev.png") no-repeat scroll left top transparent;
+ }
+ .scroll_wrapper .scroll_wrapper_i a.right{
+	right: 0px;
+	background: url("../images/next.png") no-repeat scroll left top transparent;
+ }
+ .scroll_wrapper .scroll_wrapper_i .items div.img{
+	padding: 10px 16px;
+ }
+ .ot-top-extend .scroll_wrapper .scroll_wrapper_i .scrollable{
+	margin-left: 0px;
+ }
+ .ot-top-extend .scroll_wrapper .scroll_wrapper_i a.browse{
+	width: 40px;
+	height: 40px;	
+	opacity: 0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+ }
+ .ot-top-extend .scroll_wrapper .scroll_wrapper_i a.browse:hover{
+	opacity: 1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+ }
+ .ot-top-extend .scroll_wrapper .scroll_wrapper_i a.left{
+	left: 0px;
+	background: url("../images/prev-slide.png") no-repeat scroll left top transparent;
+ }
+ .ot-top-extend .scroll_wrapper .scroll_wrapper_i a.right{
+	right: 0px;
+	background: url("../images/next-slide.png") no-repeat scroll left top transparent;
+ }
+ .ot-top-extend .scroll_wrapper .scroll_wrapper_i .items div.img{
+	padding: 0px;
+ }
+
+/* CUSTOM STYLE TOP-EXTEND MODULE */
+.ot-top-extend .module.custom-banner{
+	background: url("../images/custom-bg.png") repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+}
+.ot-top-extend .module.custom_banner{
+	margin-top: -250px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+.ot-top-extend .module.custom_banner img{
+	margin: 0px 10px;
+	-webkit-box-shadow: 0 3px 5px -5px black;
+	-moz-box-shadow: 0 3px 5px -5px black;
+	box-shadow: 0 3px 5px -5px black;
+}
+.ot-top-extend .customtitle .otModuleContent-i{
+	padding: 20px 25px;
+	color: #FFFFFF;
+}
+.ot-top-extend .customtitle .otModuleContent-i H3{
+	font-size: 46px;
+	line-height: 46px;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+
+/*------- SEARCH MODULE------------ */
+.module form.default-search{
+	margin: 10px 0px;
+	padding: 0px 5px;
+	border: 1px solid #E0E0E0;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+}
+.module form.default-search input[type="text"]{
+	border: 0px;
+	border-right: 0;
+	width: 160px;
+	padding: 4px 5px;
+	float: left;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 18px;
+	color: #BFBFBF;
+	background: none;
+}
+.module form.default-search input[type="text"]:focus {
+	outline: 0px;
+}
+.module form.default-search button,
+.module form.default-search input[type="button"],
+.module form.default-search input[type="submit"]{	
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 18px;
+	color: #FFFFFF;
+	border: 0;
+	padding: 4px 10px;
+}
+
+.k2AccountPage .toggle-editor,
+.k2AccountPage .toggle-editor .button2-left,
+.k2AccountPage .toggle-editor .button2-left .blank{
+	margin:0;
+}
+
+ /* CUSTOM STYLE TOPCONTENT */
+div.ot-top-content .otModule.none .otModule-i,
+div.ot-bottom-content .otModule.none .otModule-i{
+	padding: 0px;
+}
+div.ot-top-content .otModule.first .otModule-i,
+div.ot-bottom-content .otModule.first .otModule-i{
+	
+}
+div.ot-top-content .otModule.last .otModule-i,
+div.ot-bottom-content .otModule.last .otModule-i{
+	
+}
+div.ot-top-content span.custom-tittle{
+	font-size: 13px;
+}
+div.ot-top-content .brown span.custom-tittle{
+	color: #88775B;
+}
+div.ot-top-content .green span.custom-tittle{
+	color: #859A4B;
+}
+div.ot-top-content .yellow span.custom-tittle{
+	color: #B18911;
+}
+div.ot-top-content span.custom-tittle span.first{
+	font-size: 24px;
+	line-height: 24px;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	display: block;
+}
+div.ot-top-content span.custom-tittle span.percent{
+	font-size: 30px;
+	line-height: 30px;
+	font-family: 'Oswald';
+	float: right;
+}
+div.ot-top-content .brown  ul li,
+div.ot-top-content .green  ul li,
+div.ot-top-content .yellow  ul li{
+	font-size: 11px;
+	font-style: italic;
+}
+div.ot-top-content .brown  ul li{
+	background: url("../images/demo/arrow-brown.png") no-repeat scroll 0 7px transparent
+}
+div.ot-top-content .green  ul li{
+	background: url("../images/demo/arrow-green.png") no-repeat scroll 0 7px transparent
+}
+div.ot-top-content .yellow  ul li{
+	background: url("../images/demo/arrow-yellow.png") no-repeat scroll 0 7px transparent
+}
+
+/* CUSTOM LEFT _ RIGHT */
+.ot-leftcolumn,
+.ot-rightcolumn{
+	
+}
+.ot-leftcolumn .module.login,
+.ot-rightcolumn .module.login{
+	background: #ACB8BE;
+	color: #FFFFFF;
+}
+.ot-leftcolumn .module.login h3,
+.ot-rightcolumn .module.login h3{
+	padding: 0;
+	border: 0;
+}
+.ot-leftcolumn .module.login a,
+.ot-rightcolumn .module.login a,
+.ot-leftcolumn .module.login h3 span.title-module,
+.ot-rightcolumn .module.login h3 span.title-module{
+	color: #FFFFFF;
+}
+.ot-leftcolumn .module.login .otModule-i,
+.ot-rightcolumn .module.login .otModule-i{
+	padding: 10px 30px;
+}
+.ot-leftcolumn .module.login .otModule-i form#form-login fieldset.input,
+.ot-rightcolumn .module.login .otModule-i form#form-login fieldset.input{
+	padding: 0px;
+}
+.ot-leftcolumn .module.login form#form-login fieldset.input #form-login-username input#modlgn_username,
+.ot-leftcolumn .module.login form#form-login fieldset.input #form-login-password input#modlgn_passwd,
+.ot-rightcolumn .module.login form#form-login fieldset.input #form-login-username input#modlgn_username,
+.ot-rightcolumn .module.login form#form-login fieldset.input #form-login-password input#modlgn_passwd{
+	background: #FFFFFF;	
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	width: 95%;
+}
+.ot-leftcolumn .module.login form#form-login fieldset.input input.submit-button,
+.ot-leftcolumn .module.login form#form-login div.log-out input.submit-button,
+.ot-leftcolumn .module.login form#form-login fieldset.input input.button,
+.ot-leftcolumn .module.login form#form-login div.log-out input.button,
+.ot-rightcolumn .module.login form#form-login fieldset.input input.submit-button,
+.ot-rightcolumn .module.login form#form-login div.log-out input.submit-button,
+.ot-rightcolumn .module.login form#form-login fieldset.input input.button,
+.ot-rightcolumn .module.login form#form-login div.log-out input.button{
+	background: #ABBA5A;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	text-transform: uppercase;
+}
+div.ot-rightcolumn .custom-filter,
+div.ot-leftcolumn .custom-filter{
+	overflow: hidden;
+	padding: 15px 10px 30px 0px;
+	border-bottom: 3px double #ededee;
+}
+div.ot-rightcolumn .custom-filter h4,
+div.ot-leftcolumn .custom-filter h4{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+div.ot-rightcolumn .custom-filter img,
+div.ot-leftcolumn .custom-filter img{
+	float: left;
+	border: 1px solid #959595;
+	margin: 7px 7px 0px 0px;
+}
+div.ot-rightcolumn .custom-filter #slider-range,
+div.ot-leftcolumn .custom-filter #slider-range{
+	position: relative;
+	display: block;
+	width: 96%;
+	height: 8px;
+	margin-bottom: 10px;
+	background: #C8D4DA;
+	border-top: 1px solid #A6BAC3;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+div.ot-rightcolumn .custom-filter #slider-range .ui-slider-range,
+div.ot-leftcolumn .custom-filter #slider-range .ui-slider-range{
+	left: 20%;
+	width: 55%;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	height: 7px;
+	border-top: 1px solid #C1EE14;
+	background: #88A51F;
+}
+div.ot-rightcolumn .custom-filter #slider-range .ui-slider-handle,
+div.ot-leftcolumn .custom-filter #slider-range .ui-slider-handle{
+	position: absolute;
+	z-index: 2;
+	top: -5px;
+	margin-left: -5px;
+	width: 10px;
+	height: 20px;
+	background: url("../images/demo/slider-handle.png") repeat-x scroll 0 0 transparent;;
+}
+.module.custom-leftright p{
+	font-size: 11px;
+	font-style: italic;
+}
+.module.custom-leftright .brown,
+.module.custom-leftright .green,
+.module.custom-leftright .yellow{
+	padding: 10px 0;
+	border-bottom: 1px solid #E5E9E8;
+}
+.module.custom-leftright .brown,
+.module.custom-leftright .brown a{
+	color: #88775B;
+}
+.module.custom-leftright .green,
+.module.custom-leftright .green a{
+	color: #859A4B;
+}
+.module.custom-leftright .yellow,
+.module.custom-leftright .yellow a{
+	color: #B18911;
+}
+.module.custom-leftright span.custom-title{
+	font-size: 30px;
+	line-height: 30px;
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+.module.custom-leftright span.custom-title span.first{
+	font-family: arial black;
+}
+.module.nonepd,
+.module.nonepd .otModule-i{
+	padding: 0;
+}
+.module.nonebg{
+	background: none;
+}
+.module.nonemg{
+	margin: 0;
+}
+.nonebd .otModule-i{
+	border: 0;
+}
+.ot-leftcolumn .k2ArchivesBlock li,
+.ot-rightcolumn .k2ArchivesBlock li{
+	border: 0;
+}
+.ot-leftcolumn .k2ArchivesBlock li div,
+.ot-rightcolumn .k2ArchivesBlock li div{
+	background: #4f5153;
+	border: 0;
+	margin: 2px 1px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 18px;
+	font-weight: normal;
+}
+.ot-leftcolumn .k2ArchivesBlock li.active div,
+.ot-rightcolumn .k2ArchivesBlock li.active div,
+.ot-leftcolumn .k2ArchivesBlock li:hover div,
+.ot-rightcolumn .k2ArchivesBlock li:hover div,
+.ot-leftcolumn .k2ArchivesBlock li div:hover,
+.ot-rightcolumn .k2ArchivesBlock li div:hover{
+	background: #ABBA5A;
+}
+.ot-leftcolumn .k2ArchivesBlock li a,
+.ot-rightcolumn .k2ArchivesBlock li a{
+	font-weight: normal;
+}
+.ot-leftcolumn .k2ArchivesBlock li.active a,
+.ot-rightcolumn .k2ArchivesBlock li.active a,
+.ot-leftcolumn .k2ArchivesBlock li:hover a,
+.ot-rightcolumn .k2ArchivesBlock li:hover a,
+.ot-leftcolumn .k2ArchivesBlock li div:hover a,
+.ot-rightcolumn .k2ArchivesBlock li div:hover a
+.ot-leftcolumn .k2ArchivesBlock li div a:hover,
+.ot-rightcolumn .k2ArchivesBlock li div a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+div.ot-rightcolumn ul li.even,
+div.ot-leftcolumn ul li.even{
+	background: #ffffff;
+}
+div.ot-rightcolumn ul li.odd,
+div.ot-leftcolumn ul li.odd{
+	background: #f7f7f2;
+}
+div.ot-rightcolumn ul li .lcUsername,
+div.ot-leftcolumn ul li .lcUsername{
+	font-size: 13px;
+}
+div.ot-rightcolumn ul li .lcCommentDate,
+div.ot-leftcolumn ul li .lcCommentDate{
+	font-size: 11px;
+	font-style: italic;
+	color: #43362e;
+}
+div.ot-rightcolumn ul li a .lcComment,
+div.ot-leftcolumn ul li a .lcComment{
+	font-size: 13px;
+	color: #2a353c;
+}
+div.ot-rightcolumn ul li a:hover,
+div.ot-leftcolumn ul li a:hover{
+	text-decoration: none;
+}
+ 
+ /* CUSTOM STYLE BOTTOMBOX LATEST TWEET */
+ div.ot-bottomboxes .bottom-box ul.stream-items li.stream-item .tweet-text a{
+	display: inline-block;
+	padding: 2px 10px;
+	color: #FFFFFF;
+}
+ div.ot-bottomboxes .bottom-box ul.stream-items li.stream-item .tweet-row.created_at{
+	padding: 10px 0;
+ }
+
+/*Custom Pagination*/
+div.pagination,
+#top-pagination,
+#bottom-pagination{
+    float: left;
+    margin: 10px 0px;
+	padding: 10px 0px;
+    width: 100%;
+	text-align: center;
+	border: 0px;
+}
+#top-pagination{
+	border-bottom: 1px solid #EDEDEE;
+}
+#bottom-pagination{
+	border-top: 1px solid #EDEDEE;
+}
+.pagination p.pageslinks,
+.pagination p.pagescounter,
+#top-pagination p.pageslinks,
+#top-pagination p.pagescounter,
+#bottom-pagination p.pageslinks,
+#bottom-pagination p.pagescounter{
+	text-align: center;
+	margin: 5px 0;
+}
+.pagination p.pageslinks,
+#top-pagination p.pageslinks,
+#bottom-pagination p.pageslinks{
+	margin: 0;
+}
+.pagination span.pagination,
+#top-pagination span.pagination,
+#bottom-pagination span.pagination{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+}
+.pagination span.pagination span.text, 
+.pagination span.pagination a.link-text,
+#top-pagination span.pagination span.text, 
+#top-pagination span.pagination a.link-text,
+#bottom-pagination span.pagination span.text, 
+#bottom-pagination span.pagination a.link-text{
+	background: none;
+}
+.pagination span.pagination span.inactive,
+.pagination span.pagination strong a.link-text,
+.pagination span.pagination a.link-text,
+#top-pagination span.pagination span.inactive,
+#top-pagination span.pagination strong a.link-text,
+#top-pagination span.pagination a.link-text,
+#bottom-pagination span.pagination span.inactive,
+#bottom-pagination span.pagination strong a.link-text,
+#bottom-pagination span.pagination a.link-text{
+    line-height: normal;
+    margin: 0 0px 0 4px;
+    padding: 3px 7px;
+    width: auto;
+	color: #666666;
+}
+.pagination span.pagination span.inactive span.text,
+.pagination span.pagination strong a.link-text span.link-page,
+.pagination span.pagination a.link-text span.link-page,
+#top-pagination span.pagination span.inactive span.text,
+#top-pagination span.pagination strong a.link-text span.link-page,
+#top-pagination span.pagination a.link-text span.link-page,
+#bottom-pagination span.pagination span.inactive span.text,
+#bottom-pagination span.pagination strong a.link-text span.link-page,
+#bottom-pagination span.pagination a.link-text span.link-page{
+    line-height: 28px;
+    margin: 0;
+    padding: 0 0px;
+    width: auto;
+}
+.pagination span.pagination strong span.inactive,
+.pagination span.pagination  a.link-text:hover,
+#top-pagination span.pagination strong span.inactive,
+#top-pagination span.pagination  a.link-text:hover,
+#bottom-pagination span.pagination strong span.inactive,
+#bottom-pagination span.pagination  a.link-text:hover{
+	color: #FFFFFF;
+	background: #979797;
+	text-decoration: none;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+}
+
+/* CUSTOM LOGIN MODULE */
+.module div #ot-login-popup-link,
+.module .ot-login-button span,
+.module .ot-login-button span span{
+	background: none;
+	color: #8B8280;
+	font-weight: normal;
+}
+.module .ot-login-button span span span:hover{
+	text-decoration: underline;
+}
+.ot-logout-wrap .ot-logged-greeting-inner{
+	line-height: 24px;
+}
+#ot-login-popup-wrap,
+#ot-logout-form{
+	padding: 5px 10px;
+}
+#ot-logout-form .ot-logout-button,
+#ot-logout-form .ot-logout-button .ot-logout-button-inner,
+#ot-logout-form .ot-logout-button .ot-logout-button-inner input.button{
+	background: none;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	/*font-size: 12px;*/
+	line-height: 24px;
+	height: 24px;
+}
+#ot-logout-form .ot-logout-button .ot-logout-button-inner input.button{
+	color: #8B8280;
+}
+form#form-login{
+	
+}
+form#form-login fieldset.input{
+	border: none;
+}
+form#form-login fieldset.input #form-login-username input#modlgn_username,
+form#form-login fieldset.input #form-login-password input#modlgn_passwd{
+	width: 60%;
+	padding: 3px 2px;
+	background: #c8c8c8;
+}
+form#form-login fieldset.input #form-login-username{
+	
+}
+form#form-login fieldset.input #form-login-username input#modlgn_username{
+	
+}
+form#form-login fieldset.input #form-login-password{
+	
+}
+form#form-login fieldset.input #form-login-password input#modlgn_passwd{
+	
+}
+form#form-login fieldset.input #form-login-username label,
+form#form-login fieldset.input #form-login-password label{
+	display: block;
+}
+form#form-login fieldset.input input.submit-button,
+form#form-login div.log-out input.submit-button,
+form#form-login fieldset.input input.button,
+form#form-login div.log-out input.button{
+	border: none;
+	color: #fff;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	padding: 6px 15px 8px;
+}
+form#form-login ul li{
+	border: none;
+	background: url("../images/arrow.png") no-repeat scroll 0 10px transparent;
+	padding: 0px;
+}
+form#form-login ul li a{
+	font-style: italic;
+}
+
+/* Custom Style for Layout Type Left - Right - Content */
+body.left-right-content div.ot-mainbody{
+
+}
+body.left-right-content div.ot-mainbody div.ot-content{
+	
+}
+body.left-right-content div.ot-mainbody div.content-full-left{
+	
+}
+body.left-right-content div.ot-mainbody div.ot-rightcolumn{
+	float: left;
+	margin: 0 25px 0 0;
+}
+/* Custom Style for Layout Type Content - Left - Right */
+body.content-left-right div.ot-mainbody{
+	
+}
+body.content-left-right div.ot-mainbody div.ot-content{
+	
+}
+body.content-left-right div.ot-mainbody div.content-full-right{
+	
+}
+body.content-left-right div.ot-mainbody div.ot-leftcolumn{
+	float: right;
+	margin: 0 0 0 25px;
+}
+
+/* CUSTOM WIDTH */
+.floatleft{
+	float: left;
+}
+.floatright{
+	float: right;
+}
+.width1 {
+	width:1%;
+}
+.width2 {
+	width:2%;
+}
+.width3 {
+	width:3%;
+}
+.width4 {
+	width:4%;
+}
+.width5 {
+	width:5%;
+}
+.width6 {
+	width:6%;
+}
+.width7 {
+	width:7%;
+}
+.width8 {
+	width:8%;
+}
+.width9 {
+	width:9%;
+}
+.width10 {
+	width:10%;
+}
+.width11 {
+	width:11%;
+}
+.width12 {
+	width:12%;
+}
+.width13 {
+	width:13%;
+}
+.width14 {
+	width:14%;
+}
+.width15 {
+	width:15%;
+}
+.width16 {
+	width:16%;
+}
+.width17 {
+	width:17%;
+}
+.width18 {
+	width:18%;
+}
+.width19 {
+	width:19%;
+}
+.width20 {
+	width:20%;
+}
+.width21 {
+	width:21%;
+}
+.width22 {
+	width:22%;
+}
+.width23 {
+	width:23%;
+}
+.width24 {
+	width:24%;
+}
+.width25 {
+	width:25%;
+}
+.width26 {
+	width:26%;
+}
+.width27 {
+	width:27%;
+}
+.width28 {
+	width:28%;
+}
+.width29 {
+	width:29%;
+}
+.width30 {
+	width:30%;
+}
+.width31 {
+	width:31%;
+}
+.width32 {
+	width:32%;
+}
+.width33 {
+	width:33%;
+}
+.width34 {
+	width:34%;
+}
+.width35 {
+	width:35%;
+}
+.width36 {
+	width:36%;
+}
+.width37 {
+	width:37%;
+}
+.width38 {
+	width:38%;
+}
+.width39 {
+	width:39%;
+}
+.width40 {
+	width:40%;
+}
+.width41 {
+	width:41%;
+}
+.width42 {
+	width:42%;
+}
+.width43 {
+	width:43%;
+}
+.width44 {
+	width:44%;
+}
+.width45 {
+	width:45%;
+}
+.width46 {
+	width:46%;
+}
+.width47 {
+	width:47%;
+}
+.width48 {
+	width:48%;
+}
+.width49 {
+	width:49%;
+}
+.width50 {
+	width:50%;
+}
+.width51 {
+	width:51%;
+}
+.width52 {
+	width:52%;
+}
+.width53 {
+	width:53%;
+}
+.width54 {
+	width:54%;
+}
+.width55 {
+	width:55%;
+}
+.width56 {
+	width:56%;
+}
+.width57 {
+	width:57%;
+}
+.width58 {
+	width:58%;
+}
+.width59 {
+	width:59%;
+}
+.width60 {
+	width:60%;
+}
+.width61 {
+	width:61%;
+}
+.width62 {
+	width:62%;
+}
+.width63 {
+	width:63%;
+}
+.width64 {
+	width:64%;
+}
+.width65 {
+	width:65%;
+}
+.width66 {
+	width:66%;
+}
+.width67 {
+	width:67%;
+}
+.width68 {
+	width:68%;
+}
+.width69 {
+	width:69%;
+}
+.width70 {
+	width:70%;
+}
+.width71 {
+	width:71%;
+}
+.width72 {
+	width:72%;
+}
+.width73 {
+	width:73%;
+}
+.width74 {
+	width:74%;
+}
+.width75 {
+	width:75%;
+}
+.width76 {
+	width:76%;
+}
+.width77 {
+	width:77%;
+}
+.width78 {
+	width:78%;
+}
+.width79 {
+	width:79%;
+}
+.width81 {
+	width:81%;
+}
+.width82 {
+	width:82%;
+}
+.width83 {
+	width:83%;
+}
+.width84 {
+	width:84%;
+}
+.width85 {
+	width:85%;
+}
+.width86 {
+	width:86%;
+}
+.width87 {
+	width:87%;
+}
+.width88 {
+	width:88%;
+}
+.width89 {
+	width:89%;
+}
+.width90 {
+	width:90%;
+}
+.width91 {
+	width:91%;
+}
+.width92 {
+	width:92%;
+}
+.width93 {
+	width:93%;
+}
+.width94 {
+	width:94%;
+}
+.width95 {
+	width:95%;
+}
+.width96 {
+	width:96%;
+}
+.width97 {
+	width:97%;
+}
+.width98 {
+	width:98%;
+}
+.width99 {
+	width:99%;
+}
+.width100 {
+	width:100%;
+}
+
+
+

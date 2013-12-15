@@ -1,0 +1,62 @@
+/* Document css */
+.scroll_wrapper{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.scroll_wrapper{
+	padding:0;
+	 width: 100% !important;
+}
+.scroll_wrapper_i{
+	overflow: hidden;
+	padding:0;
+}
+.scroll_wrapper .scrollable{
+    margin: 0 0 0 46px;
+    padding: 0;
+    /*width: 841px !important;*/
+	width: 841px;
+}
+.items div.img{
+	float: left;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px 5px;
+}
+.scrollable {
+	float:left;	
+	position: relative;
+	top: 0;
+	left: 0px;
+	overflow: hidden;
+	width: 650px;
+}
+
+.scrollable .items {
+	width: 20000em;
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+}
+.scroll_wrapper a.browse{
+	background: url(../images/next-prev.png) no-repeat 0 0;
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top: 20px;
+    z-index: 99;
+}
+.scroll_wrapper a.left{
+    background-position: 0 0;
+    left: 10px;
+    /*top: 15px !important;*/
+	top: 15px;
+	display: block !important;
+}
+.scroll_wrapper a.right{
+    background-position: -42px 50%;
+    right:5px;
+	/*top: 15px !important;*/
+	top: 15px;
+}

@@ -1,0 +1,118 @@
+/**
+ # ot_caraccessories - 	OT Car Accessories Template for Joomla 1.7!
+ # author 			OmegaTheme.com
+ # copyright 		Copyright(C) 2012 - OmegaTheme.com. All Rights Reserved.
+ # @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 		http://omegatheme.com
+ # Technical 		support: Forum - http://omegatheme.com/forum/
+ **/
+ /**------------------------------------------------------------------------
+ * file: customs.thumb.productdetails.css 1.7.0 00001, December 2011 12:00:00Z OmegaTheme $
+ * package:	OT Car Accessories Template
+ *------------------------------------------------------------------------*/
+
+/* CUSTOM STYLE PRODUCTDETAILS PAGE */
+div#large_image_holder{
+    /*overflow: hidden;
+	padding: 15px;*/
+    text-align: center;
+	position: relative;
+}
+div#large_image_holder ul{
+	float: left;
+    padding: 0px;
+	margin: 0;
+	width: 100%;
+	/*width: 340px;*/
+    /*position: relative;
+    width: 280px;
+    height: 290px;
+    z-index: 10;*/
+	background: #FFFFFF;
+	/*border: 1px solid #EBEBEB;*/
+}
+div#large_image_holder ul li{
+	/*position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 9;*/
+	overflow: hidden;
+	height: 400px;
+	width: 400px;
+	float: left;
+	/*height: 290px;
+	width: 100%;*/
+}
+div#large_image_holder ul li a{
+	display: block;
+	/*cursor: url("../images/cursor.cur") 53 53, auto;
+	cursor: url("../images/larger.ani"), url("../images/larger.png"), auto;*/
+}
+div#large_image_holder ul li img{
+	/*width: 260px; 
+	height: 260px;*/
+	/*max-width: 260px;*/
+	/*margin:10px;*/
+	margin: 0;
+	width: 100%;
+}
+div#large_image_holder ul li.hide{
+	display: none;
+}
+div#large_image_holder ul li,
+ul#thumb_holder li{
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+div.additional-images{
+	width: 280px;
+	float: left;
+	margin: 10px;
+	background: #FFFFFF;
+	/*position: relative;*/
+}
+div.additional-images-i{
+	width: 280px;
+	float: left;
+	position: relative;
+}
+ul#thumb_holder{
+	margin: 0;
+}
+ul#thumb_holder li{
+	float: left;
+    padding: 0px;
+    width: 93px;
+    overflow: hidden;
+    text-align: center;
+}
+ul#thumb_holder li a{
+	display: block;
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	margin: 0 1px 0 0;
+	border: 1px solid #e1e1e1;
+}
+ul#thumb_holder li a.current_img{
+	border: 1px solid #949494;
+}
+ul#thumb_holder li img{
+	height: 90px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+/*	max-width: 160px; */
+}
+
+
+
+
+
+
+
+
+
+
+

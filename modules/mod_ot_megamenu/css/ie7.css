@@ -1,0 +1,7 @@
+/* Document CSS ie7 only */
+div.ot-megamenu ul li li{
+	border: none;
+	display:inline-block;
+	float: none;
+	width: 100%;
+}

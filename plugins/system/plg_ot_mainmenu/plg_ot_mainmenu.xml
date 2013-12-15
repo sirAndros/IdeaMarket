@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.5" type="plugin" group="system">
+	<name>OT Main Menu Parameters</name>
+	<author>OmegaTheme.com</author>
+	<creationDate>July 2012</creationDate>
+	<copyright>Copyright (C) 2012 OmegaTheme. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://omegatheme.com</authorUrl>
+	<version>2.5</version>
+	<description>Plugin which adds additional main menu options</description>	
+	<files>
+			<filename plugin="plg_ot_mainmenu">plg_ot_mainmenu.php</filename>
+			<filename plugin="plg_ot_mainmenu">parameters.xml</filename>
+			<folder>elements</folder>
+	</files>	
+
+</install>

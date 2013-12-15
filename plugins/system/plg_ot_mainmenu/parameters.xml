@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="ot-params" label="OT Menu Params" addfieldpath="/plugins/system/plg_ot_mainmenu/elements/">
+			<field name="item_desc" 
+				type="text" 
+				default=""
+				size="15"
+				label="Item Description" 
+				description="Item Description" />
+				
+			<field name="item_classSuffix" 
+				type="text" 
+				default=""
+				size="15"
+				label="Item Class Suffix" 
+				description="Item Class Suffix" />
+			
+			<field name="colorchoser_script" 
+					type="color" 
+					default="" 
+					label=" " 
+					description=" " />
+			
+			<field name="custom_item_color" type="radio" default="0" label="Custom Item Color" description="Custom Item Color">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			
+			<field name="item_color" 
+				type="text" 
+				default="#666666" 
+				size="15" 
+				class="color {hash:true}" 
+				label="Item Text Color" 
+				description="Item Text Color" />
+				
+			<field type="spacer" name="spacer2" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;&lt;/div&gt;" />
+			
+			<field name="create_column" type="radio" default="0" label="Create Column" description="Create Column">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			
+			<field name="column_width"
+					type="text" 
+					default="200" 
+					size="15"
+					
+					label="Column Width (px)" 
+					description="Column Width" />
+			
+			<field type="spacer" name="spacer3" label="&lt;div style=&quot;width: 300%; font-weight:bold;font-size:12px;padding: 4px 0px;margin:0;&quot;&gt;&lt;hr/&gt;&lt;/div&gt;" />
+			
+			<field name="load_module" type="radio" default="0" label="Load Module" description="Load Module">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			
+			<field name="module_id"
+					type="text" 
+					default="" 
+					size="15" 
+					label="Module ID" 
+					description="Module ID" />
+			
+		</fieldset>
+	</fields>
+</form>

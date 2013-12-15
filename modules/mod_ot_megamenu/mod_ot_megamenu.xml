@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>OT Mega Menu</name>
+	<author>OmegaTheme.com</author>
+	<creationDate>July 2012</creationDate>
+	<copyright>Copyright (C) 2012 Omegatheme.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>www.omegatheme.com</authorUrl>
+	<version>2.5.0</version>
+	<description>OT Mega Menu</description>
+	<files>
+		<filename module="mod_ot_megamenu">mod_ot_megamenu.php</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_ot_megamenu.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="menutype"
+					type="menu"
+					label="Select Menu"
+					description="Select Menu" />
+				<field
+					name="startLevel"
+					type="list"
+					default="1"
+					label="Start Level"
+					description="Start Level">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</field>
+
+				<field
+					name="endLevel"
+					type="list"
+					default="0"
+					label="End Level"
+					description="End Level">
+					<option value="0">All</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</field>
+
+				<field
+					name="showAllChildren"
+					type="radio"
+					default="1"
+					label="Show Sub-menu Items"
+					description="Show Sub-menu Items">
+					<option
+						value="0">No</option>
+					<option
+						value="1">Yes</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="tag_id"
+					type="text"
+					label="Menu Tag ID"
+					description="Menu Tag ID" />
+
+				<field
+					name="class_sfx"
+					type="text"
+					label="Menu Class Suffix"
+					description="Menu Class Suffix" />
+
+				<field
+					name="window_open"
+					type="text"
+					label="Target Position"
+					description="Target Position" />
+
+				<field
+					name="layout"
+					type="modulelayout"
+					label="Alternative Layout"
+					description="Alternative Layout" />
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="Menu Class Suffix"
+					description="Menu Class Suffix" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="Caching"
+					description="Caching">
+					<option
+						value="1">Use Global</option>
+					<option
+						value="0">No Caching</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="Cache Time"
+					description="Cache Time" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="itemid">
+					<option
+						value="itemid"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
